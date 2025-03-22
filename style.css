@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+}
+.todaysWeather {
+    border: 2px solid black;
+}
+.location {
+    text-align: center;
+}
+.todaysWeather {
+    width: 300px;
+}
+.middlePart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#search {
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    width: 300px;
+}
+.getImageButton {
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    border: none;
+    width: 80px;
+    background-color: rgb(137, 93, 203);
+}
+.header {
+    background-color: purple;
+    height: 50px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 6fr;
+}
